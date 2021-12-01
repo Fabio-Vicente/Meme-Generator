@@ -6,7 +6,7 @@ const container = document.getElementById('meme-image-container');
 const fireButton = document.getElementById('fire');
 const waterButton = document.getElementById('water');
 const earthButton = document.getElementById('earth');
-const buildedMemes = document.getElementById('pre-builded');
+const builtedMemes = document.getElementById('pre-builted');
 
 function transcryptText() {
   memeText.innerText = textInput.value;
@@ -24,9 +24,9 @@ function newBorder(click) {
   container.className = borderButton.id;
 }
 function display(click) {
-  const preBuilded = click.target;
-  if (preBuilded !== buildedMemes) {
-    memeImg.src = preBuilded.src;
+  const preBuilted = click.target;
+  if (preBuilted !== builtedMemes) {
+    memeImg.src = preBuilted.src;
   }
 }
 
@@ -36,4 +36,4 @@ memeImg.onload = freeImgMemory;
 fireButton.onclick = newBorder;
 waterButton.onclick = newBorder;
 earthButton.onclick = newBorder;
-buildedMemes.onclick = display;
+builtedMemes.onclick = display;

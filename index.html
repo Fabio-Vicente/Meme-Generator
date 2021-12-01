@@ -9,7 +9,7 @@
 </head>
 <body>
     <main>
-        <section>
+        <section id="input-container">
             <input id="text-input" type="text" maxlength="60">
             <input id="meme-insert" type="file" accept="image/*">
         </section>
@@ -18,12 +18,21 @@
             <img id="meme-image" src="" alt="Meme Image">
         </section>
         <section>
-            <section>
-                <button id="fire"></button>
-                <button id="water"></button>
-                <button id="earth"></button>
+            <section id="buttons-container">
+                <div>
+                    <label for="fire">Fogo</label>
+                    <button id="fire"></button>
+                </div>
+                <div>
+                    <label for="water">Água</label>
+                    <button id="water"></button>
+                </div>
+                <div>
+                    <label for="earth">Terra</label>
+                    <button id="earth"></button>
+                </div>
             </section>
-            <section id="pre-builded">
+            <section id="pre-builted">
                 <div>
                     <img id="meme-1" src="imgs/meme1.png" alt="Meme 1">
                 </div>
@@ -38,7 +47,6 @@
                 </div>
             </section>
         </section>
-        
     </main>
     <script src="script.js"></script>
 </body>
