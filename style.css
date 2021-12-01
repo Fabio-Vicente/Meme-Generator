@@ -1,0 +1,8 @@
+#meme-image-container {
+  position: relative;
+}
+
+#meme-image-container p {
+  position: absolute;
+  margin: 0;
+}
