@@ -14,9 +14,24 @@ img {
   display: block;
 }
 
+.dark {
+  border: 1px solid black;
+}
+
+.fire {
+  border: 3px dashed red;
+}
+
+.water {
+  border: 5px double blue;
+}
+
+.earth {
+  border: 6px groove green;
+}
+
 #meme-image-container {
   background-color: white;
-  border: 1px solid black;
   position: relative;
   width: 450px;
   height: 450px;
@@ -26,4 +41,16 @@ img {
 #meme-image-container p {
   position: absolute;
   margin: 0;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
 }
