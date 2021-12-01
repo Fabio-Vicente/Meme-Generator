@@ -7,6 +7,15 @@ p {
   max-height: 100%;
 }
 
+div {
+  border: 1px groove black;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  margin: 8px;
+}
+
 img {
   position: absolute;
   width: 100%;
